@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h1>Olá, eu sou [Seu Nome]</h1>
+    <p>Desenvolvedor Backend | Fullstack | Entusiasta em Tecnologia</p>
+    <a href="#projects" class="btn">Veja meus projetos</a>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Sou um desenvolvedor apaixonado por tecnologia. Tenho experiência em desenvolvimento backend, criação de APIs, e otimização de sistemas. Meu objetivo é sempre entregar soluções de qualidade que agreguem valor.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Meus Projetos</h2>
+      <div class="project">
+        <img src="assets/project1.png" alt="Projeto 1">
+        <div class="project-info">
+          <h3>Projeto 1</h3>
+          <p>Descrição breve do projeto, tecnologias usadas e o problema que ele resolve.</p>
+          <a href="#" class="btn">Veja mais</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="assets/project2.png" alt="Projeto 2">
+        <div class="project-info">
+          <h3>Projeto 2</h3>
+          <p>Descrição breve do projeto, tecnologias usadas e o problema que ele resolve.</p>
+          <a href="#" class="btn">Veja mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Entre em contato para oportunidades ou para conversar sobre tecnologia!</p>
+      <form id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        
+        <label for="message">Mensagem</label>
+        <textarea id="message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 [Seu Nome] - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
